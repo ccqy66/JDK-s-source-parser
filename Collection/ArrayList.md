@@ -25,6 +25,8 @@
 
 #####源码分析：
 - add(E e)：
+函数调用栈
+![](https://github.com/ccqy66/JDK-s-source-parser/blob/master/Art/ArrayList-1.jpg)
 ```
 public boolean add(E e) {
         ensureCapacityInternal(size + 1);  // Increments modCount!!
